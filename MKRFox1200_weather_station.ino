@@ -1,4 +1,4 @@
-// -------------------------------------------------------------------------
+ // -------------------------------------------------------------------------
 // This project sends DHT11 temperature and humidity through Sigfox network
 //
 // Created: 16.05.2017
@@ -17,10 +17,10 @@
 // Connect pin 4 (on the right) of the sensor to GROUND
 // Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the sensor
 
-#define DHTPIN        1                // What digital pin we're connected to
+#define DHTPIN        2                // What digital pin we're connected to
 #define DHTTYPE       DHT11
 #define DEBUG         true             // Set DEBUG to false to disable serial prints
-#define SLEEPTIME     15 * 60 * 1000   // Set the delay to 15 minutes (15 min x 60 seconds x 1000 milliseconds)
+#define SLEEPTIME     1 * 60 * 1000   // Set the delay to 15 minutes (15 min x 60 seconds x 1000 milliseconds)
 
 #define UINT16_t_MAX  65536
 #define INT16_t_MAX   UINT16_t_MAX/2
