@@ -1,0 +1,8 @@
+status::uint:8 
+
+temp1::int:16:little-endian temp2::int:16:little-endian humidity::uint:16:little-endian lastMsg::uint:8 
+
+https://api.thingspeak.com/update?api_key=V5UTWU84ODSPHRAI&field1={customData#temp1}&field2={customData#temp2}&field3={customData#humidity}&field4={customData#lastMsg}
+
+
+temp1::int:16:little-endian temp2::int:16:little-endian humidity::uint:16:little-endian lastMsg::uint:8
