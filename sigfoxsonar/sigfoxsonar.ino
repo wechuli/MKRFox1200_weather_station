@@ -17,7 +17,7 @@
 // Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the sensor
 
 #define DEBUG true              // Set DEBUG to false to disable serial prints
-#define SLEEPTIME 1 * 60 * 1000 // Set the delay to 15 minutes (15 min x 60 seconds x 1000 milliseconds)
+#define SLEEPTIME 60 * 60 * 1000 // Set the delay to 15 minutes (15 min x 60 seconds x 1000 milliseconds)
 
 #define UINT16_t_MAX 65536
 #define INT16_t_MAX UINT16_t_MAX / 2
